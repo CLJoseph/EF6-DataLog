@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleEF6-DataLog", "ConsoleEF6-DataLog\ConsoleEF6-DataLog.csproj", "{439B0BF7-68D0-4448-8BC0-91B12F46262F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{439B0BF7-68D0-4448-8BC0-91B12F46262F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{439B0BF7-68D0-4448-8BC0-91B12F46262F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{439B0BF7-68D0-4448-8BC0-91B12F46262F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{439B0BF7-68D0-4448-8BC0-91B12F46262F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {316CCFCA-0E65-4B33-B319-E6FC62511E58}
+	EndGlobalSection
+EndGlobal
