@@ -110,6 +110,10 @@ namespace ConsoleEF6_DataLog
                             case "Addresses":
                                 var Alist = Item.Entity.GetType().GetProperty(test.Name).GetValue(Item.Entity, null); 
                                 var Collection = (List<T_Address>)Alist;
+                                foreach(var Line in Collection)
+                                {
+                                    change.TableFK += "T_Address ID:" + Line.ID + " ";
+                                }
                                 break;
                             default: break;
                         }                       
@@ -123,10 +127,4 @@ namespace ConsoleEF6_DataLog
 
     }
 }
-
-
-    
-
-
    
-

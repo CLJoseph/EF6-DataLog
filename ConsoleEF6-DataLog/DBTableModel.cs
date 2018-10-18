@@ -58,9 +58,10 @@ namespace ConsoleEF6_DataLog
         public string UserId { get; set; }              
         public string UserName { get; set; }
         public string Device { get; set; }           // details of the device the user is using   
-        public string TableName { get; set; }        // table affected 
-        public string TableRowID { get; set; }      
-        public string Event { get; set; }            // add,update or remove data from a table
-        public string Detail { get; set; }           // row columns affected. 
+        public string TableName { get; set; }        // Table affected 
+        public string TableRowID { get; set; }
+        public string TableFK { get; set; }          //  Table foreign keys
+        public string Event { get; set; }            //  add,update or remove data from a table
+        public string Detail { get; set; }           //  row columns affected. 
     }
 }
